@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+main button{
+    padding: 20px 40px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.calculator{
+    width: 40vw;
+    height: auto;
+    background-color: red;
+}
+
+.output{
+    background-color: rgb(62, 62, 62);
+    width: 100%;
+    min-height: 100px;
+}
+
+.calculator-indicators{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: blueviolet;
+}
+
+.span-two{
+    grid-column: span 2;
+}
